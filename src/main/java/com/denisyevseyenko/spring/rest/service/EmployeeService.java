@@ -1,12 +1,11 @@
-package com.denisyevseyenko.spring.rest.dao;
-
+package com.denisyevseyenko.spring.rest.service;
 
 
 import com.denisyevseyenko.spring.rest.entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO
+public interface EmployeeService
 {
     public List<Employee> getAllEmployees();
 
